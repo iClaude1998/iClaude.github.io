@@ -61,14 +61,14 @@
       <td width="75%" valign="middle">
           <papertitle><strong>Master Research Project (Ongoing)</strong></papertitle>
       
-          <br> Morphological Characterisation of the Human Knee Joint X-ray images.
-          <p>Extract the interested morphological characterisation of the Human Knee Joint X-ray images</p>
+          <br> Automatic Knee Alignment Analysis Pipeline of Human Knee Joint X-ray images.
+          <p>A two stage algorithm for Preoperative examination of Total knee Arthroplasty (TKA) which locates the mechanical axes of femur and tibia, and measures the hip-knee-ankle angle (HKAA) between them, </p>
             <ul type="disc">
               <li> <strong>Supervisor</strong>: <a href="https://cecc.anu.edu.au/people/nicolo-malagutti"> Dr. Nicolo Malagutti</a>. 
-              <li> <strong>Bone Segmentation</strong>: A coarse to fine model structure which predict high resolution mask by point-render to save memory. 
+              <li> <strong>Bone Segmentation</strong>: A coarse to fine model structure which predict high resolution mask by adaptive subdivision strategy to save memory. 
               <li> <strong>Signed Distance supervision</strong>: - A SDF-head, which introduce geometry information for segmentation network.
-              <li> <strong>Postprocessing Algorithm</strong>: A postprocessing Algorithm which is loyal to the definition of morphological characterisation
-              <li> <strong>Impact (Currently)</strong>: The mean squared error of HKA between the algorithm prediction and doctors' record (ground truth) decreases from 1.83 (vanilla U-Net) to 1.32.  
+              <li> <strong>Postprocessing Algorithm</strong>: A postprocessing Algorithm which measures the HKAA by definition of relate landmarks.
+              <li> <strong>Impact (Currently)</strong>: The mean absolute error of HKA between the algorithm prediction and doctors' record (ground truth) decreases from 0.71 (vanilla U-Net) to 0.55 in 50 test examples.  
             </ul>
         </td>
     </tr>     
